@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestForms.MyPage">
+    <ContentPage.Content>
+        <StackLayout>
+<Grid Margin="10,10,10,10">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <Grid.RowDefinitions>
+         <RowDefinition Height="42" />
+        <RowDefinition Height="42" />
+        <RowDefinition Height="42" />
+        <RowDefinition Height="42" />    
+    </Grid.RowDefinitions>
+
+            <Label Text="Opis" Grid.Row="0" Grid.Column="0" />
+            <Entry x:Name="nameEntry" Placeholder="Opis" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="End"/>
+
+            <Label Text="Iznos" Grid.Row="1" Grid.Column="0" />
+            <Entry x:Name="amountEntry" Placeholder="Iznos kredita" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="End"/>
+
+            <Label Text="Kamata %" Grid.Row="2" Grid.Column="0"/>
+            <Entry x:Name="interestEntry" Placeholder="Kamatna stopa" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="End"/>
+
+            <Label Text="Broj godina" Grid.Row="3" Grid.Column="0" />
+            <Entry x:Name="periodEntry" Placeholder="Broj godina"  Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="End"/>
+                
+       </Grid>
+            <Button Text="Izračun" Clicked="Calc_Loan" />
+            </StackLayout>
+    </ContentPage.Content>
+
+
+
+</ContentPage>
