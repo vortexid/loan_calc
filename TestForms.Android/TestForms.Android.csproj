@@ -42,7 +42,7 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidKeyStore>True</AndroidKeyStore>
-    <AndroidSigningKeyStore>/Users/dvirovec/Projects/TestForms/tmatix.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyStore>/keys/tmatix.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>tmatix4u</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>release</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>tmatix4u</AndroidSigningKeyPass>
