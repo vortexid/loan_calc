@@ -42,10 +42,10 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidKeyStore>True</AndroidKeyStore>
-    <AndroidSigningKeyStore>/Users/dvirovec/Projects/TestForms/inforbis.keystore</AndroidSigningKeyStore>
-    <AndroidSigningStorePass>34Orbis3!</AndroidSigningStorePass>
-    <AndroidSigningKeyAlias>inforbis</AndroidSigningKeyAlias>
-    <AndroidSigningKeyPass>34Orbis3!</AndroidSigningKeyPass>
+    <AndroidSigningKeyStore>/Users/dvirovec/Projects/TestForms/tmatix.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>tmatix4u</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>release</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>tmatix4u</AndroidSigningKeyPass>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
