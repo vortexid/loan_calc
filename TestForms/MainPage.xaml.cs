@@ -23,6 +23,7 @@ namespace TestForms
             Navigation.PushAsync(new MyPage());
         }
 
+        // comment added
         protected override void OnAppearing()
         {
             base.OnAppearing();
