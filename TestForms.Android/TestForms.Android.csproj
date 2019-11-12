@@ -31,6 +31,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidSigningKeyStore>/keys/debug.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>tmatix4u</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>debug</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>tmatix4u</AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
