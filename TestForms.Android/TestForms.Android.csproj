@@ -78,6 +78,10 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="keys\tmatix.keystore" />
+    <None Include="keys\debug.keystore" />
+    <None Include="keys\dvirovec.keystore" />
+    <None Include="keys\inforbis.keystore" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
